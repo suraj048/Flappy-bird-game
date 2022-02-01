@@ -13,7 +13,7 @@ pygame.mixer.pre_init(frequency=44100,size=16,channels=1,buffer=512)
 screen_width = 576
 screen_height = 1024
 screen = pygame.display.set_mode((screen_width, screen_height))
-pygame.display.set_caption('Flappy bird ')
+pygame.display.set_caption('Flappy bird Updated ')
 
 
 
@@ -214,9 +214,6 @@ while True:
     draw_floor()
     if floor_x_pos < -576:
         floor_x_pos = 0
-
-
-
 
 
     pygame.display.flip()
